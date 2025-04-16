@@ -27,21 +27,7 @@ i {
   width: fit-content;
   margin-left: 50px;
   margin-top: 50px;
-}
-
-.button:hover {
-  background-color: red;
-  color: white;
-}
-
-.button:hover .number {
-  color: white;
-}
-.button:hover p {
-  color: white;
-}
-.button:hover i {
-  color: white;
+  transition: 0.5s ease;
 }
 
 p {
