@@ -12,3 +12,48 @@ img,
 video {
   display: block;
 }
+
+i {
+  color: red;
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  width: fit-content;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+.button:hover .number {
+  color: white;
+}
+.button:hover p {
+  color: white;
+}
+.button:hover i {
+  color: white;
+}
+
+p {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+}
+
+.number {
+  color: #000;
+  font-size: 14px;
+  line-height: 18px; /* 128.571% */
+}
